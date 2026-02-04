@@ -1,10 +1,11 @@
+import Link from "next/dist/client/link";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
       <h1>Hello, world!</h1>
-      <a href="/users">Users</a>
+      <Link href="/users">Users</Link>
     </main>
   );
 }
